@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Про мене</title>
+</head>
+<body>
+    <div id="root"></div>
+    <header>
+        <h1>Дещо про мене</h1>
+        <hr>
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html">Головна</a>
+                </li>
+                <li>
+                    <a href="about.html">Про мене</a>
+                </li>
+                <li>
+                    <a href="news.html">Новини</a>
+                </li>
+                <li>
+                    <a href="photo.html">Фото</a>
+                </li>
+                <li>
+                    <a href="rozklad.html">Розклад</a>
+                </li>
+            </ul>
+        </nav>
+        <hr>
+    </header>
+    <section>
+        <h2>Інформація про хобі та інтереси</h2>
+        <cite>
+            Окрім навчання, я люблю в'язати, як гачком, так і спицями. Захоплююся музикою. Також мені подобається догляд за рослинами.
+        </cite>
+        <br>
+        <select id="choose_img" style="margin: 20px 150px; width: 100px;">
+            <option value="../assets/images/hobby1.jpg" selected>Тюльпани</option>
+            <option value="../assets/images/hobby2.jpg">Корівка</option>
+            <option value="../assets/images/hobby3.jpg">Бойовий кіт</option>
+            <option value="../assets/images/hobby4.jpg">Пес Патрон</option>
+        </select>
+        <br>
+        <img id="image" src="../assets/images/hobby1.jpg" alt="Default image" width="400px">
+        <script>
+            const imageSelect = document.getElementById('choose_img');
+            const image = document.getElementById('image');
+            imageSelect.addEventListener('change', function() {
+              const selectedImage = imageSelect.value;
+              image.src = selectedImage;
+              image.alt = 'Selected Image: ' + selectedImage;
+            });
+          </script>
+    </section>
+    <footer>
+        2023
+    </footer>
+</body>
+</html> 
