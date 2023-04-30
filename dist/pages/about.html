@@ -5,47 +5,44 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Про мене</title>
+    <link rel="stylesheet" href="../assets/css/indexNew.css">
 </head>
 <body>
     <div id="root"></div>
     <header>
-        <h1>Дещо про мене</h1>
-        <hr>
-        <nav>
-            <ul>
+        <h1 class="element title">Дещо про мене</h1>
+        <nav class="element">
+            <ul class="menu">
                 <li>
-                    <a href="index.html">Головна</a>
+                    <a href="index.html" class="menu__item">Головна</a>
                 </li>
                 <li>
-                    <a href="about.html">Про мене</a>
+                    <a href="about.html" class="menu__item">Про мене</a>
                 </li>
                 <li>
-                    <a href="news.html">Новини</a>
+                    <a href="news.html" class="menu__item">Новини</a>
                 </li>
                 <li>
-                    <a href="photo.html">Фото</a>
+                    <a href="photo.html" class="menu__item">Фото</a>
                 </li>
                 <li>
-                    <a href="rozklad.html">Розклад</a>
+                    <a href="rozklad.html" class="menu__item">Розклад</a>
                 </li>
             </ul>
         </nav>
-        <hr>
     </header>
-    <section>
-        <h2>Інформація про хобі та інтереси</h2>
-        <cite>
+    <section class="element">
+        <h2 class="element__header">Інформація про хобі та інтереси</h2>
+        <cite class="element__text">
             Окрім навчання, я люблю в'язати, як гачком, так і спицями. Захоплююся музикою. Також мені подобається догляд за рослинами.
         </cite>
-        <br>
-        <select id="choose_img" style="margin: 20px 150px; width: 100px;">
+        <select id="choose_img">
             <option value="../assets/images/hobby1.jpg" selected>Тюльпани</option>
             <option value="../assets/images/hobby2.jpg">Корівка</option>
             <option value="../assets/images/hobby3.jpg">Бойовий кіт</option>
             <option value="../assets/images/hobby4.jpg">Пес Патрон</option>
         </select>
-        <br>
-        <img id="image" src="../assets/images/hobby1.jpg" alt="Default image" width="400px">
+        <img id="image" src="../assets/images/hobby1.jpg" alt="Default image">
         <script>
             const imageSelect = document.getElementById('choose_img');
             const image = document.getElementById('image');
@@ -56,7 +53,7 @@
             });
           </script>
     </section>
-    <footer>
+    <footer class="element">
         2023
     </footer>
 </body>

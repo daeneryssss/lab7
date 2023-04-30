@@ -5,86 +5,91 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Новини</title>
+    <link rel="stylesheet" href="../assets/css/indexNew.css">
 </head>
 <body>
     <header>
-        <h1>Останні новини</h1>
-        <hr>
-        <nav>
-            <ul>
+        <h1 class="element title">Останні новини</h1>
+        <nav class="element">
+            <ul class="menu">
                 <li>
-                    <a href="index.html">Головна</a>
+                    <a href="index.html" class="menu__item">Головна</a>
                 </li>
                 <li>
-                    <a href="about.html">Про мене</a>
+                    <a href="about.html" class="menu__item">Про мене</a>
                 </li>
                 <li>
-                    <a href="news.html">Новини</a>
+                    <a href="news.html" class="menu__item">Новини</a>
                 </li>
                 <li>
-                    <a href="photo.html">Фото</a>
+                    <a href="photo.html" class="menu__item">Фото</a>
                 </li>
                 <li>
-                    <a href="rozklad.html">Розклад</a>
+                    <a href="rozklad.html" class="menu__item">Розклад</a>
                 </li>
             </ul>
         </nav>
-        <hr>
     </header>
-    <section>
-        <h2 style="margin: 10px 150px;">У Африці стався один із найсильніших штормів</h2>
-        <img src="https://img.tsn.ua/cached/780/tsn-d7721072f5f1787fa1f16a6df613a75f/thumbs/1036x648/63/82/acfc348caf1e8bfcb34bb46833e08263.jpeg" alt="Шторм у Африці" width="500px">
-        <p>Результатом стали повені і зсуви, знеструмлені регіони, загибель понад сотні людей.</p>
-        <a href="https://tsn.ua/svit/u-africi-stavsya-odin-iz-naysilnishih-shtormiv-na-pivdenniy-pivkuli-scho-vidomo-foto-i-video-2284924.html">
-            Детальніше...
-        </a>
-        <hr>
-        <h2 style="margin: 10px 150px;">Анонсував "дуже круті новини": Єрмак зустрівся з польською делегацією</h2>
-        <img src="https://img.tsn.ua/cached/358/tsn-d7721072f5f1787fa1f16a6df613a75f/thumbs/1036x648/02/aa/874fd502cda8985db83f5560d9aaaa02.jpeg" alt="Єрмак" width="500px">
-        <p>Україна завершує виконання рекомендацій Єврокомісії щодо статусу кандидата на членство у ЄС, наголосив Андрій Єрмак.</p>
-        <a href="https://tsn.ua/politika/anonsuvav-duzhe-kruti-novini-yermak-zustrivsya-z-polskoyu-delegaciyeyu-2284927.html">
-            Детальніше...
-        </a>
-        <hr>
-        <h2 style="margin: 10px 150px;">Зеленський анонсував новини про посилення оборони</h2>
-        <img src="https://kor.ill.in.ua/m/610x385/2811424.jpeg" alt="Зеленський" width="500px">
-        <p>
-            Президент Володимир Зеленський анонсував новини про посилення оборони України. Про це він сказав у вечірньому зверненні 13 березня.Також Зеленський подякував українським військовим за успішні дії під Бахмутом.
+    <main class="news">
+        <section class="news__element">
+            <h2 class="element__header">У Африці стався один із найсильніших штормів</h2>
+            <img src="https://img.tsn.ua/cached/780/tsn-d7721072f5f1787fa1f16a6df613a75f/thumbs/1036x648/63/82/acfc348caf1e8bfcb34bb46833e08263.jpeg" alt="Шторм у Африці" class="element__image">
+            <p class="element__text">Результатом стали повені і зсуви, знеструмлені регіони, загибель понад сотні людей.</p>
+            <a href="https://tsn.ua/svit/u-africi-stavsya-odin-iz-naysilnishih-shtormiv-na-pivdenniy-pivkuli-scho-vidomo-foto-i-video-2284924.html" class="element__link">
+                Детальніше...
+            </a>
+        </section>
+        <section class="news__element">
+            <h2 class="element__header">Анонсував "дуже круті новини": Єрмак зустрівся з польською делегацією</h2>
+            <img src="https://img.tsn.ua/cached/358/tsn-d7721072f5f1787fa1f16a6df613a75f/thumbs/1036x648/02/aa/874fd502cda8985db83f5560d9aaaa02.jpeg" alt="Єрмак" class="element__image">
+            <p class="element__text">Україна завершує виконання рекомендацій Єврокомісії щодо статусу кандидата на членство у ЄС, наголосив Андрій Єрмак.</p>
+            <a href="https://tsn.ua/politika/anonsuvav-duzhe-kruti-novini-yermak-zustrivsya-z-polskoyu-delegaciyeyu-2284927.html" class="element__link">
+                Детальніше...
+            </a>
+        </section>
+        <section class="news__element">
+            <h2 class="element__header">Зеленський анонсував новини про посилення оборони</h2>
+            <img src="https://kor.ill.in.ua/m/610x385/2811424.jpeg" alt="Зеленський" class="element__image">
+            <p class="element__text">
+                Президент Володимир Зеленський анонсував новини про посилення оборони України. Про це він сказав у вечірньому зверненні 13 березня.Також Зеленський подякував українським військовим за успішні дії під Бахмутом.
 
-        </p>
-        <a href="https://ua.korrespondent.net/ukraine/4571013-zelenskyi-anonsuvav-novyny-pro-posylennia-oborony">
-            Детальніше...
-        </a>
-        <hr>
-        <h2 style="margin: 10px 150px;">"Оскар-2023": найкращим фільмом визнали "Все завжди і водночас"</h2>
-        <img src="https://img.tsn.ua/cached/899/tsn-d7721072f5f1787fa1f16a6df613a75f/thumbs/1036x648/ce/2a/a431237ab0fa5037ea95fe3427c62ace.jpeg" alt="Оскар-2023" width="500px">
-        <p>
-            Режисерами стрічки стали Ден Кван та Деніел Шейнерт.
-            У прямому ефірі церемонії нагородження "Оскар-2023" оголосили назву фільму, який отримав золоту статуетку від Кіноакадемії. 
-            Престижна нагорода дісталася стрічці "Все завжди і водночас".</p>
-        <a href="https://tsn.ua/glamur/oskar-2023-naykraschim-filmom-viznali-2284045.html">
-            Детальніше...
-        </a>
-        <hr>
-        <h2 style="margin: 10px 150px;">Скандал з Шевченківською премією 2023: комітет покинула відома художниця</h2>
-        <img src="https://img.tsn.ua/cached/136/tsn-d7721072f5f1787fa1f16a6df613a75f/thumbs/1036x648/d9/43/5cf4ca9c970fae65e197fe72b5a843d9.jpeg" alt="Художниця" width="500px">
-        <p>
-            Відома художниця Влада Ралко вийшла з Шевченківського комітету.
-            Зокрема, рішення скласти мандат вона прийняла ще у лютому, а свої повноваження склала 18 лютого 2023 року.</p>
-        <a href="https://tsn.ua/politika/skandal-z-shevchenkivskoyu-premiyeyu-2023-komitet-pokinula-vidoma-hudozhnicya-2284150.html">
-            Детальніше...
-        </a>
-        <hr>
-        <h2 style="margin: 10px 150px;">ЄС готує спільний план закупівель боєприпасів для України – Bloomberg</h2>
-        <img src="https://glavcom.ua/img/article/9142/42_main-v1678749514.jpg" alt="ЄС" width="500px">
-        <p>
-            Країни ЄС наступного тижня підпишуть спільний план закупівель боєприпасів для України
-            Очікується, що країни Євросоюзу підпишуть спільний план закупівель боєприпасів для України вже наступного тижня. Так повідомляє Bloomberg.</p>
-        <a href="https://glavcom.ua/news/jes-hotuje-spilnij-plan-zakupivel-bojepripasiv-dlja-ukrajini-bloomberg-914242.html">
-            Детальніше...
-        </a>
-        <hr>
-    </section>
-    <footer>2023</footer>
+            </p>
+            <a href="https://ua.korrespondent.net/ukraine/4571013-zelenskyi-anonsuvav-novyny-pro-posylennia-oborony" class="element__link">
+                Детальніше...
+            </a>
+        </section>
+        <section class="news__element">
+            <h2 class="element__header">"Оскар-2023": найкращим фільмом визнали "Все завжди і водночас"</h2>
+            <img src="https://img.tsn.ua/cached/899/tsn-d7721072f5f1787fa1f16a6df613a75f/thumbs/1036x648/ce/2a/a431237ab0fa5037ea95fe3427c62ace.jpeg" alt="Оскар-2023" class="element__image">
+            <p class="element__text">
+                Режисерами стрічки стали Ден Кван та Деніел Шейнерт.
+                У прямому ефірі церемонії нагородження "Оскар-2023" оголосили назву фільму, який отримав золоту статуетку від Кіноакадемії. 
+                Престижна нагорода дісталася стрічці "Все завжди і водночас".</p>
+            <a href="https://tsn.ua/glamur/oskar-2023-naykraschim-filmom-viznali-2284045.html" class="element__link">
+                Детальніше...
+            </a>
+        </section>
+        <section class="news__element">
+            <h2 class="element__header">Скандал з Шевченківською премією 2023: комітет покинула відома художниця</h2>
+            <img src="https://img.tsn.ua/cached/136/tsn-d7721072f5f1787fa1f16a6df613a75f/thumbs/1036x648/d9/43/5cf4ca9c970fae65e197fe72b5a843d9.jpeg" alt="Художниця" class="element__image">
+            <p class="element__text">
+                Відома художниця Влада Ралко вийшла з Шевченківського комітету.
+                Зокрема, рішення скласти мандат вона прийняла ще у лютому, а свої повноваження склала 18 лютого 2023 року.</p>
+            <a href="https://tsn.ua/politika/skandal-z-shevchenkivskoyu-premiyeyu-2023-komitet-pokinula-vidoma-hudozhnicya-2284150.html" class="element__link">
+                Детальніше...
+            </a>
+        </section>
+        <section class="news__element">
+            <h2 class="element__header">ЄС готує спільний план закупівель боєприпасів для України – Bloomberg</h2>
+            <img src="https://glavcom.ua/img/article/9142/42_main-v1678749514.jpg" alt="ЄС" class="element__image">
+            <p class="element__text">
+                Країни ЄС наступного тижня підпишуть спільний план закупівель боєприпасів для України
+                Очікується, що країни Євросоюзу підпишуть спільний план закупівель боєприпасів для України вже наступного тижня. Так повідомляє Bloomberg.</p>
+            <a href="https://glavcom.ua/news/jes-hotuje-spilnij-plan-zakupivel-bojepripasiv-dlja-ukrajini-bloomberg-914242.html" class="element__link">
+                Детальніше...
+            </a>
+        </section>
+    </main>
+    <footer class="element">2023</footer>
 </body>
 </html>
