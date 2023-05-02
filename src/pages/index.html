@@ -4,12 +4,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../assets/css/indexNew.css">
+    <link rel="stylesheet" href="../assets/css/index.css">
+    <link rel="stylesheet" href="../assets/css/print.css" media="print">
     <title>Головна</title>
 </head>
 <body>
     <div id="root"></div>
     <header>
+        <!--[if lte IE 10]>
+        <div class="message">
+            <p>You are using Internet Explorer 10 or lower.</p>
+        </div>
+        <![endif]-->
         <h1 class="title element">Особиста сторінка</h1>
         <nav class="element">
             <ul class="menu">
@@ -34,8 +40,8 @@
     <section class="element">
         <p class="element__text">
             Вітаю на моєму сайті! Я Васильєва Дарія Олексіївна, студентка 3 курсу групи 6.1210-1пі
-            <a href="https://www.znu.edu.ua/ukr/university/departments/math">математичного факультету</a>
-            <a href="https://www.znu.edu.ua/">Запорізького Національного Університету</a>.
+            <a href="https://www.znu.edu.ua/ukr/university/departments/math" class="link">математичного факультету</a>
+            <a href="https://www.znu.edu.ua/" class="link">Запорізького Національного Університету</a>.
         </p>
         <div class="element__author">
             <cite class="author__cite">Привіт! Це я:</cite>

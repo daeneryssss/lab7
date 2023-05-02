@@ -1,0 +1,14 @@
+nav, footer {
+    display: none;
+    height: 0;
+}
+
+a[href]:after {
+    content: " (" attr(href) ")";
+}
+
+body {
+    background: none;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 50px;
+}
